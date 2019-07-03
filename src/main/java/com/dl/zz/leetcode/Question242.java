@@ -42,5 +42,6 @@ public class Question242 {
         System.out.println(isAnagram("asdfghjkl","lkjhgfdsa"));
     }
 
+
 }
  
