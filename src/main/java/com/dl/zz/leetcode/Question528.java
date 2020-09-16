@@ -20,10 +20,11 @@ public class Question528 {
         //这里是把左中右三个节点里最后一个遍历的左子节点的返回值，返回给下一层
         return leftval;
     }
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
 }
- class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-}
+
